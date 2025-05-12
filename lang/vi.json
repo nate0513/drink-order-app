@@ -1,4 +1,15 @@
 {
-  "title": "Hệ thống đặt đồ uống",
-  "order_summary": "Chi tiết đơn hàng"
+  "title":"Hệ thống đặt đồ uống",
+  "order_summary":"Danh sách đơn hàng",
+  "total":"Tổng cộng",
+  "deliveryAddress":"Địa chỉ giao hàng",
+  "contacts":"Liên hệ",
+  "paidTogether":"Thanh toán chung",
+  "floor":"Tầng",
+  "name":"Tên",
+  "store":"Cửa hàng",
+  "drink":"Thức uống",
+  "toppings":"Topping",
+  "price":"Giá",
+  "collect":"Trạng thái thanh toán"
 }

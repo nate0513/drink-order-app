@@ -1,4 +1,15 @@
 {
-  "title": "飲料訂購系統",
-  "order_summary": "訂單明細"
+  "title":"飲料訂購系統",
+  "order_summary":"訂單列表",
+  "total":"總金額",
+  "deliveryAddress":"外送地址",
+  "contacts":"聯絡人",
+  "paidTogether":"集中付款",
+  "floor":"樓層",
+  "name":"人員",
+  "store":"店家",
+  "drink":"飲品",
+  "toppings":"加料",
+  "price":"價格",
+  "collect":"付款狀態"
 }

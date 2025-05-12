@@ -1,12 +1,21 @@
 {
-  "白巷子": [],
-  "武茶林": [],
-  "comebuy": [],
+  "白巷子": [
+    {"name":"葡萄柚綠茶","price":70,"toppings":[{"name":"珍珠","price":10},{"name":"椰果","price":10}]}
+  ],
+  "武茶林": [
+    {"name":"熟成紅茶","price":50,"toppings":[{"name":"珍珠","price":5},{"name":"寒天","price":5}]},
+    {"name":"鐵觀音鮮奶茶","price":70,"toppings":[{"name":"椰果","price":5},{"name":"寒天","price":5}]}
+  ],
+  "comebuy": [
+    {"name":"原葉鮮萃茶","price":60,"toppings":[{"name":"珍珠","price":5},{"name":"椰果","price":5}]} 
+  ],
   "一沐日": [],
   "五桐號": [],
   "mr. WISH": [],
   "龜記": [],
-  "50嵐": [],
+  "50嵐": [
+    {"name":"芝士奶蓋紅茶","price":55,"toppings":[{"name":"布丁","price":10},{"name":"波霸","price":10}]}
+  ],
   "鶴茶樓": [],
   "得正": [],
   "COCO": []

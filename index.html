@@ -7,7 +7,65 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="app"></div>
+  <div id="login-screen">
+    <h2>請輸入密碼以進入系統</h2>
+    <input type="password" id="password-input" placeholder="Password..." />
+    <button id="password-submit">登入</button>
+  </div>
+  <div id="app" style="display:none;">
+    <h1 id="app-title">飲料訂購系統</h1>
+    <div>
+      <label for="lang-select">語言：</label>
+      <select id="lang-select">
+        <option value="zh">繁體中文</option>
+        <option value="vi">Tiếng Việt</option>
+      </select>
+    </div>
+    <div>
+      <label for="floor-select">樓層：</label>
+      <select id="floor-select"></select>
+      <label for="employee-select">人員：</label>
+      <select id="employee-select"></select>
+      <button id="add-employee">新增人員</button>
+    </div>
+    <div>
+      <label for="store-select">店家：</label>
+      <select id="store-select"></select>
+    </div>
+    <div>
+      <label for="drink-select">飲品：</label>
+      <select id="drink-select"></select>
+    </div>
+    <div>
+      <label for="toppings-select">加料：</label>
+      <select id="toppings-select" multiple></select>
+    </div>
+    <div>
+      <button id="add-order">新增訂單</button>
+      <button id="clear-orders">清除全部</button>
+    </div>
+    <h2 id="orders-title">訂單列表</h2>
+    <table id="orders-table" border="1">
+      <thead>
+        <tr>
+          <th>樓層</th><th>人員</th><th>店家</th><th>飲品</th><th>加料</th><th>價格</th><th>集中付款</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div>
+      <p id="total-label">總金額：0</p>
+      <label>外送地址：</label>
+      <p>汐止區環河街100號（艾訊 - 12:30前送至警衛室寄放）</p>
+      <label for="contact-select">聯絡人：</label>
+      <select id="contact-select" multiple></select>
+    </div>
+    <div>
+      <button id="export-text">匯出純文字</button>
+      <button id="export-md">匯出Markdown表格</button>
+    </div>
+    <textarea id="output-area" rows="10" style="width:100%;"></textarea>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
