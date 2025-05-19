@@ -10,7 +10,7 @@
        { "name": "鶴記芝麻糊凍","price": 15 },
        { "name": "燕麥奶",     "price": 10 }
     ]},
-    { "name": "鶴頂紅茶 (L)",            "price": 35, "toppings": [[
+    { "name": "鶴頂紅茶 (L)",            "price": 35, "toppings": [
        { "name": "珍珠",       "price": 10 },
        { "name": "蘆薈",       "price": 10 },
        { "name": "胚芽",       "price": 10 },
@@ -18,7 +18,8 @@
        { "name": "桂香烏龍凍",  "price": 10 },
        { "name": "鶴記杏仁凍",  "price": 15 },
        { "name": "鶴記芝麻糊凍","price": 15 },
-       { "name": "燕麥奶",     "price": 10 }]},
+       { "name": "燕麥奶",     "price": 10 }
+    ]},
     { "name": "綺夢紅茶 (M)",            "price": 35, "toppings": [
        { "name": "珍珠",       "price": 10 },
        { "name": "蘆薈",       "price": 10 },
